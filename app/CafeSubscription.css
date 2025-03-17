@@ -1,0 +1,19 @@
+.checkmark {
+    position: absolute;
+    top: 5px; /* Adjust as needed */
+    right: 5px; /* Adjust as needed */
+    font-size: 1.5em; /* Adjust size as needed */
+    color: green;
+  }
+
+  .subscription-option {
+      position: relative;
+      padding: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 5px;
+      cursor: pointer;
+  }
+
+  .subscription-option.selected {
+      border: 2px solid green; /* Example: Add a border when selected */
+  }
